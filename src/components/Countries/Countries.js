@@ -13,6 +13,7 @@ const Countries = () => {
         <div>
             <h1>Lets Explore the world!</h1>
             <h3>Total Countries: {countries.length}</h3>
+            <h2>Go wherever you want.</h2>
             <div className='countries'>
                 {
                     countries.map(country => <Country
